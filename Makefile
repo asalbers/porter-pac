@@ -1,5 +1,5 @@
 MIXIN = pac
-PKG = github.com/squillace/porter-pac
+PKG = github.com/asalbers/porter-pac
 SHELL = bash
 
 GO = GO111MODULE=on go

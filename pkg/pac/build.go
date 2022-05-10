@@ -28,7 +28,7 @@ apt-get install zip unzip gpg tree curl -y && \
 mkdir -p cnab/app/ && \
 curl -l https://dotnet.microsoft.com/download/dotnet/scripts/v1/dotnet-install.sh -o cnab/app/dotnet-install.sh && \ 
 chmod +x cnab/app/dotnet-install.sh && \
-./cnab/app/dotnet-install.sh --version 5.0.301 && \
+./cnab/app/dotnet-install.sh --no-cdn --version 5.0.301 && \
 mkdir -p /cnab/app/tools`
 
 // Build will generate the necessary Dockerfile lines
